@@ -5,10 +5,10 @@
 }
 
 :root {
-    --brand: #57AEFF;
-    --page-color: #F0F0F0;
+    --brand: #002df7;
+    --page-color: #FFFEFB;
     --card-color: white;
-    --secondary: #1C1C1C;
+    --secondary: #232323;
     --text-primary: #1C1C1C;
     --text-secondary: #595959;
     --text-inverse: #F0F0F0;
@@ -37,6 +37,7 @@ main {
 
 .navbar {
     background-color: var(--secondary);
+    border-bottom: 1px solid var(--accent);
     padding: 24px;
 }
 
@@ -66,6 +67,13 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    color: var(--text-inverse);
+}
+
+.hero img {
+    border-radius: 16px;
+    border: 1px solid var(--accent);
+    box-shadow: 0 8px 24px black; 
 }
 
 
@@ -108,5 +116,4 @@ footer {
     justify-content: center;
     gap: 40px;
     margin-bottom: 8px;
-
 }
